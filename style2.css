@@ -1,0 +1,51 @@
+.schedule-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .schedule {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .schedule > li {
+    padding: 10px;
+    margin: 4px 0;
+    border: 3px solid #fd0000;
+    background-color: #ff0000;
+    font-size: 20px;
+    color: #262525;
+    transition: background-color 0.3s ease;
+  }
+  
+  .schedule ul {
+    list-style: circle;
+    padding-left: 25px;
+  }
+  
+  .schedule ul li {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .schedule > li:hover {
+    background-color: #3bccbd;
+    cursor: pointer;
+  }
+  
+  .schedule > li:first-child {
+    background-color: #09fd11;
+  }
+  
+  .schedule > li:last-child {
+    background-color: #f39fa8;
+  }
+  
+  .schedule > li:nth-child(even) {
+    background-color: #cd43e6;
+  }
+  
+  .schedule > li:nth-child(odd) {
+    background-color: #ebe4a8;
+  }
