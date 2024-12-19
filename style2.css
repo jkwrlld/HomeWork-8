@@ -1,51 +1,65 @@
-.schedule-container {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 20px;
-  }
-  
-  .schedule {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .schedule > li {
-    padding: 10px;
-    margin: 4px 0;
-    border: 3px solid #fd0000;
-    background-color: #ff0000;
-    font-size: 20px;
-    color: #262525;
-    transition: background-color 0.3s ease;
-  }
-  
-  .schedule ul {
-    list-style: circle;
-    padding-left: 25px;
-  }
-  
-  .schedule ul li {
-    font-size: 16px;
-    margin: 5px 0;
-  }
-  
-  .schedule > li:hover {
-    background-color: #3bccbd;
-    cursor: pointer;
-  }
-  
-  .schedule > li:first-child {
-    background-color: #09fd11;
-  }
-  
-  .schedule > li:last-child {
-    background-color: #f39fa8;
-  }
-  
-  .schedule > li:nth-child(even) {
-    background-color: #cd43e6;
-  }
-  
-  .schedule > li:nth-child(odd) {
-    background-color: #ebe4a8;
-  }
+.container-grom {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 15px;
+}
+.container th {
+  font-size: 23px;
+  margin: 200px;
+  border: 3px;
+  background-color: yellow;
+}
+
+.container td {
+  font-size: 16px;
+}
+
+.container th:hover {
+  background-color: #3bccbd;
+  cursor: pointer;
+}
+
+
+.container th:first-child {
+  background-color: #09fd11;
+}
+
+.container th:last-child {
+  background-color: #09fd11;
+}
+
+.container td:nth-child(even) {
+  background-color: #e18513;
+}
+.container td:nth-child(odd) {
+  background-color: #e71de3;
+}
+
+.container td:nth-child(3n) {
+  background-color: #8dd5e7;
+}
+
+.rozklad {
+  text-align: center;
+}
+
+.qwe:active{
+  background: slategray;
+  color: silver;
+  border: 1px;
+  cursor: pointer;
+}
+
+.qwe:hover:active {
+  cursor: pointer;
+
+  background-color: blue;
+  color: yellow;
+}
+
+.asd:hover {
+  cursor: pointer;
+
+  background-color: rgb(31, 246, 45);
+  color: rgb(219, 251, 41);
+}
