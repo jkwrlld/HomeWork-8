@@ -57,9 +57,19 @@
   color: yellow;
 }
 
-.asd:hover {
+.asd:focus {
   cursor: pointer;
 
   background-color: rgb(31, 246, 45);
   color: rgb(219, 251, 41);
+}
+
+div:hover {
+  border-color: red;
+}
+
+.ert:hover:active {
+  cursor: pointer;
+
+  color: whitesmoke;
 }
